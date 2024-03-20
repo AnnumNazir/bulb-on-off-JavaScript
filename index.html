@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="img">
+      <img id="off" src="crop off bulb.JPG" width="350px" alt="Image 1" />
+
+      <img id="on" src="crop on bulb.JPG" width="250px" alt="Image 2" />
+    </div>
+
+    <div id="audio">
+      <audio id="dayaudio" src="night.mp3"></audio>
+      <audio id="nightaudio" src="day.mp3"></audio>
+    </div>
+
+    <br /><br />
+
+    <div id="btn">
+      <h2 id="heading">Turns Off the lights Its time to sleep</h2>
+      <br /><br />
+
+      <button id="btn-off" onclick="btn()">
+        <i class="fa-solid fa-toggle-off"></i>Off
+      </button>
+      <button id="btn-on" onclick="btn()">
+        <i class="fa-solid fa-toggle-on"></i>on
+      </button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

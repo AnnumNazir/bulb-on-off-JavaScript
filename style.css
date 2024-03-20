@@ -1,0 +1,54 @@
+#on {
+  display: none;
+}
+#off {
+  display: none;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: auto;
+  margin-top: 5px;
+}
+#btn-off {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  outline: none;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btn-on {
+  display: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid green;
+  outline: none;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+}
+.fa-toggle-off {
+  font-size: 50px;
+}
+.fa-toggle-on {
+  font-size: 50px;
+  color: green;
+}
